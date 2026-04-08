@@ -126,8 +126,6 @@ StudyBuddy/
 │   └── Extensions.swift
 │
 └── StudyBuddyApp.swift
-⏱️ Timer Logic (Core Feature)
-
 
 Flow:
 Start session
