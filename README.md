@@ -99,33 +99,33 @@ Relationships:
 
 📂 Project Structure
 StudyBuddy/
+* │
+* ├── Models/
+│   * ├── Subject.swift
+│   * ├── Task.swift
+│   * ├── StudySession.swift
+│   * ├── Grade.swift
+│   * ├── Note.swift
+│  *  └── ScheduleItem.swift
 │
-├── Models/
-│   ├── Subject.swift
-│   ├── Task.swift
-│   ├── StudySession.swift
-│   ├── Grade.swift
-│   ├── Note.swift
-│   └── ScheduleItem.swift
+* ├── ViewModels/
+│   * ├── TimerViewModel.swift
+│   * └── StatsViewModel.swift
 │
-├── ViewModels/
-│   ├── TimerViewModel.swift
-│   └── StatsViewModel.swift
+* ├── Views/
+│   * ├── Today/
+│   * ├── Tasks/
+│   * ├── Timer/
+│   * ├── Stats/
+│   * └── Subjects/
 │
-├── Views/
-│   ├── Today/
-│   ├── Tasks/
-│   ├── Timer/
-│   ├── Stats/
-│   └── Subjects/
+* ├── Services/
+│   * └── NotificationManager.swift
 │
-├── Services/
-│   └── NotificationManager.swift
+* ├── Utilities/
+│   * └── Extensions.swift
 │
-├── Utilities/
-│   └── Extensions.swift
-│
-└── StudyBuddyApp.swift
+* └── StudyBuddyApp.swift
 
 Flow:
 * Start session
@@ -173,9 +173,9 @@ Flow:
 
 
 👨‍💻 Author
-Isharat Jahan
-Bachleors of Computer Information System 
-iOS Developer
+* Isharat Jahan
+* Bachleors of Computer Information System 
+* iOS Developer
 
 
 ⭐ Acknowledgements
